@@ -1,2 +1,0 @@
-movies.genres=movies.genres.apply(extractor)
-movies.keywords=movies.keywords.apply(extractor)
