@@ -1,0 +1,1 @@
+new_df=movies[["movie_id","title","tags"]]

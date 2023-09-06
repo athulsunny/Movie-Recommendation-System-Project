@@ -1,0 +1,6 @@
+# Finding the distance between the vectors for finding similarity using cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity
+similarity=cosine_similarity(vectors)
+similarity[10]
+
+    

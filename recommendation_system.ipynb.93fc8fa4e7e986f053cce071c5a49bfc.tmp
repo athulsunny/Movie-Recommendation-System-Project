@@ -1,0 +1,2 @@
+# Converting the tags column into lowercase. It is recommended
+new_df["tags"]=new_df["tags"].apply(lambda x:x.lower())

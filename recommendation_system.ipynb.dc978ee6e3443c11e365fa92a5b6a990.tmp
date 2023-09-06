@@ -1,0 +1,11 @@
+def function2(obj):
+    counter=0
+    L=[]
+    for i in ast.literal_eval(obj):
+        if counter!=3:
+            L.append(i["name"])
+            counter=counter+1
+        else:
+            break
+    return L        
+            
